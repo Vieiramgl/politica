@@ -17,10 +17,11 @@
 ul{
     display: flex;
     list-style: none;
+    margin-left: 30%;
 }
 
 li{
-    padding-right: 15%;
+    padding-right: 20%;
     
 }
 
@@ -42,14 +43,87 @@ li :hover{
 
 .logo {
     height: 50%;
-    margin-left: 20%;
-    margin-right: 7%;
+    margin-left: 100%;
+   
 }
 
 #atual {
     color: #FF7B00;
     border-bottom: 3px solid #FF7B00;
     padding-bottom: 25px;
+}
+
+.fundo {
+    position: relative;
+}
+
+.fundo img {
+    width: 100%;
+}
+
+.fundo p {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.botoes {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    display: flex;
+    gap: 20px;
+}
+
+.botao {
+    background: #FF7B00;
+    color: #112244;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #112244;
+    color: #ffffff;
+}
+
+.candidato {
+    display: flex;
+}
+
+.candidato img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 25%;
+    margin-top: 3%;
+}
+
+.infos {
+    margin: 3%;
+    margin-right: 15%;
+}
+
+.infos h3 {
+    color: #FF7B00;
+}
+
+.infos h1 {
+    color: #112244;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 2%;
+}
+
+.infos p {
+    font-size: 2vw;
+    color: #112244;
+    line-height: 1.5;
 }
 
 
