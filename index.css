@@ -6,45 +6,45 @@
     font-family: "Arsenal", sans-serif;
 }
 
-.menu{
+.menu {
     height: 100px;
-    background-color:#112244;
+    background-color: #112244;
     display: flex;
     align-items: center;
-
-}
-
-ul{
-    display: flex;
-    list-style: none;
-    margin-left: 30%;
-}
-
-li{
-    padding-right: 20%;
-    
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: 450;
-    font-size: 125%;
-    
-
-}
-
-li :hover{
-    color: orange;
-    border-bottom: 3px solid orange;
-    padding-bottom: 25px;
-    
+    justify-content: space-between;
+    padding: 0 5%;
 }
 
 .logo {
-    height: 50%;
-    margin-left: 100%;
-   
+    margin-left: 15%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 1;
+    margin-right: 15%;
+}
+
+li {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+li a:hover {
+    color: FF7B00;
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
 }
 
 #atual {
@@ -102,7 +102,7 @@ li :hover{
     border-top-right-radius: 10px;
     width: 25%;
     margin-top: 3%;
-    margin-left: 3%;
+    margin-left: 15%;
 }
 
 .infos {
@@ -122,13 +122,14 @@ li :hover{
 }
 
 .infos p, .faixa_esquerda p {
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: #112244;
     line-height: 1.5;
 }
 
 .trajetoria {
     display: flex;
+    margin-left: 10%;
 }
 
 .faixa_esquerda{
@@ -139,9 +140,11 @@ li :hover{
 
 
 .accordeons {
-    width: 55%;
+    width: 100%;
+    max-width: 40vw;
+    font-size: 1.5vw;
     padding-left: 5%;
-    padding-right: 10%;
+    padding-right: 15%;
     padding-top: 5%;
 }
 
@@ -179,3 +182,85 @@ details p, details div {
   color: #000000;
 }
 
+.valores {
+    display: flex;
+    flex-direction: column;
+    background-color: #112244;
+    margin-top: 5%;
+    padding-top: 3%;
+    text-align: center;
+    align-items: center;
+}
+
+.valores h3 {
+    color: #FF7B00;
+    padding-bottom: 1%;
+}
+
+.valores h1 {
+    color: #ffffff;
+    font-size: 2.5vw;
+    padding-bottom: 2%;
+}
+
+.valores p {
+    color: #ffffff;
+    width: 80%;
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 3% auto;
+    gap: 3%;
+}
+
+.card { 
+    flex: 1 1 calc(33.33% - 3%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: left;
+    padding: 1.5%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+
+.cards :hover {
+    background-color: #ffcc00;
+    transition: 0.3s;
+    scale: 1.05;
+}
+
+#card_icon {
+    width: 10%;
+    padding-bottom: 2%;
+}
+
+#card_title {
+    color:#112244;
+    padding-bottom: 2%;
+}
+
+#card_paragraph {
+    color: #112244;
+    font-size: 1vw;
+}
+
+.footer_links {
+    background-color: yellowgreen;
+    height: 50px;
+}
+
+.footer_redes_sociais {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.footer_redes_sociais img {
+    width: 3%;
+}
