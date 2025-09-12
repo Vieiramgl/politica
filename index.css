@@ -373,6 +373,10 @@ details div {
         margin-right: 10%;
     }
 
+    .candidato h3, .trajetoria h3, .valores h3 {
+        font-size: 5vw;
+    }
+
     .infos {
         margin-right: 10%;
         margin-left: 10%;
@@ -382,7 +386,7 @@ details div {
     .faixa_esquerda h1 {
         color: #112244;
         font-weight: 700;
-        font-size: 7vw;
+        font-size: 8vw;
         margin-bottom: 1%;
     }
 
@@ -404,7 +408,7 @@ details div {
 
     .accordeons {
         width: 90%;
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     details {
@@ -413,12 +417,12 @@ details div {
 
     summary {
         padding: 8px;
-        font-size: 12px;
+        font-size: 5vw;
     }
 
     details p {
         padding: 8px;
-        font-size: 12px;
+        font-size: 5vw;
     }
 
     .valores {
@@ -433,19 +437,18 @@ details div {
     .valores h3 {
         color: #FF7B00;
         padding-bottom: 1%;
-        font-size: 5vw;
     }
 
     .valores h1 {
         color: #ffffff;
-        font-size: 10vw;
         padding-bottom: 2%;
+        font-size: 8vw;
     }
 
     .valores p {
         color: #ffffff;
         width: 80%;
-        font-size: 1.5vw;
+        font-size: 5vw;
         line-height: 1.5;
     }
 
@@ -464,17 +467,22 @@ details div {
     #card_icon {
         width: 8%;
         padding-bottom: 2%;
+        margin-left: 2%;
     }
 
     #card_title {
         color: #112244;
         padding-bottom: 2%;
         display: flex;
+        margin-left: 4%;
+        padding-bottom: 2%;
+        
     }
 
     #card_paragraph {
         color: #112244;
-        font-size: 3vw;
+        font-size: 5vw;
+        margin-left: 5%;
     }
 
     .line {
