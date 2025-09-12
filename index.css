@@ -141,7 +141,7 @@ li a:hover {
 .faixa_esquerda {
     width: 45%;
     padding-top: 5%;
-    padding-left: 3%;
+    padding-left: 5%;
 }
 
 
@@ -361,16 +361,10 @@ details div {
 
     }
 
-    .candidato,
-    .trajetoria {
-        display: flex;
-    }
-
-
     .candidato img {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .candidato h3, .trajetoria h3, .valores h3 {
@@ -378,8 +372,8 @@ details div {
     }
 
     .infos {
-        margin-right: 10%;
-        margin-left: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
     .infos h1,
@@ -387,7 +381,7 @@ details div {
         color: #112244;
         font-weight: 700;
         font-size: 8vw;
-        margin-bottom: 1%;
+        margin-right: 0;
     }
 
     .infos p,
@@ -400,10 +394,13 @@ details div {
 
     .trajetoria {
         flex-direction: column;
+        margin-left: 5%;
+        margin-right: 0%;
     }
 
     .faixa_esquerda {
-        width: 80%;
+        width: 90%;
+        
     }
 
     .accordeons {
