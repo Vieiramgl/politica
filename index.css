@@ -310,7 +310,10 @@ details div {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {}
+    
+
+@media (max-width: 425px) {
     .candidato {
         flex-direction: column;
     }
@@ -322,12 +325,10 @@ details div {
     .infos {
         order: 1;
     }
-}
 
-@media (max-width: 425px) {
 
     a {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
 
@@ -338,14 +339,15 @@ details div {
     .fundo p {
         position: absolute;
         top: 10%;
-        left: 10%;
-        font-size: 6vw;
+        left: 5%;
+        font-size: 6.5vw;
         font-weight: 700;
         color: #ffffff;
     }
 
     .botoes {
-        font-size: 2.5vw;
+        font-size: 3vw;
+        margin-left: 15%;
     }
 
     .botao {
@@ -366,7 +368,7 @@ details div {
 
 
     .candidato img {
-        width: 70%;
+        width: 80%;
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -380,13 +382,14 @@ details div {
     .faixa_esquerda h1 {
         color: #112244;
         font-weight: 700;
-        font-size: 6vw;
+        font-size: 7vw;
         margin-bottom: 1%;
     }
 
     .infos p,
     .faixa_esquerda p {
-        font-size: 3vw;
+        font-size: 5vw;
+        font-weight: 500;
         color: #112244;
         line-height: 1.5;
     }
@@ -479,5 +482,6 @@ details div {
 
     }
 
+  
 
 }
