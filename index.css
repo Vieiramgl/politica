@@ -153,9 +153,8 @@ li a:hover {
 
 details {
     width: 100%;
-    margin: 3%;
-    border: 2px solid #FF7B00;
-    border-radius: 8px;
+    margin: 1%;
+    border: 15px solid #FF7B00;
     background-color: #ff7b0035;
     overflow: hidden;
 }
@@ -170,7 +169,6 @@ summary {
 }
 
 summary:hover {
-    background-color: #112244;
     color: #ffffff;
     border-color: #112244;
 }
@@ -326,11 +324,9 @@ details div {
         order: 1;
     }
 
-
     a {
         font-size: 2vw;
     }
-
 
     .fundo img {
         width: 100%;
@@ -451,20 +447,24 @@ details div {
 
     .cards {
         flex-direction: column;
-        width: 80%;
+        width: 90%;
+    }
+
+    .card{
+        padding: 7% 2%;
     }
 
     .card_um, .card_dois, .card_tres, .card_quatro, .card_cinco, .card_seis {
         border-radius: 8px;
         text-align: left;
         display: flex;
-        
+;
     }
 
     #card_icon {
         width: 8%;
         padding-bottom: 2%;
-        margin-left: 2%;
+        margin-left: 4%;
     }
 
     #card_title {
@@ -480,6 +480,7 @@ details div {
         color: #112244;
         font-size: 5vw;
         margin-left: 5%;
+        text-align: justify;
     }
 
     .line {
