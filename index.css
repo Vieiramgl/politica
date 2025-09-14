@@ -51,7 +51,7 @@
 li :hover {
     color: #FF7B00;
     border-bottom: 3px solid #FF7B00;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 
@@ -316,10 +316,21 @@ details div {
 
 @media (max-width: 425px) {
 
+    li :hover {
+        color: white;
+        border-bottom: none;
+    }
 
-    
 
-    .logo{
+    #atual {
+        color: white;
+        border-bottom: none;
+        padding-bottom: 25px;
+    }
+
+
+
+    .logo {
         width: 50%;
         margin-left: 5%;
     }
@@ -331,18 +342,28 @@ details div {
 
     .menu {
         position: relative;
+        height: 70px;
     }
 
     .menu ul {
-        display: none;
-        flex-direction: column;
-        background-color: #112244;
-        position: absolute;
-        top: 75px;
-        right: 0;
-        width: 100%;
-        text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #112244;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    padding-left: 5%; 
+    box-sizing: border-box;
+    display: none;
     }
+
+    .menu ul {
+    background-color: #1a2a4d;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    border-top: 2px solid #FF7B00;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
 
     .menu li {
         padding: 20px 0;
