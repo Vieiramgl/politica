@@ -101,16 +101,13 @@ li a:hover {
 }
 
 .candidato img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     width: 25%;
-    margin-top: 3%;
-    margin-left: 15%;
+    margin-top: 2%;
+    margin-left: 0%;
 }
 
 .infos {
-    margin: 3%;
-    margin-right: 15%;
+    margin-right: 0%;
 }
 
 .infos h3,
@@ -135,25 +132,25 @@ li a:hover {
 
 .trajetoria {
     display: flex;
-    margin-left: 10%;
+    margin-left: 0%;
 }
 
 .faixa_esquerda {
     width: 45%;
-    padding-top: 5%;
-    padding-left: 5%;
+    margin-top: 2%;
+    padding-left: 0%;
 }
 
 
 .accordeons {
     width: 100%;
     font-size: 1.5vw;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 details {
     width: 100%;
-    margin: 1%;
+    margin: 0.7%;
     border: 15px solid #FF7B00;
     background-color: #ff7b0035;
     overflow: hidden;
@@ -309,7 +306,7 @@ details div {
 
 
 @media (max-width: 768px) {}
-    
+
 
 @media (max-width: 425px) {
     .candidato {
@@ -363,7 +360,9 @@ details div {
         margin-right: 5%;
     }
 
-    .candidato h3, .trajetoria h3, .valores h3 {
+    .candidato h3,
+    .trajetoria h3,
+    .valores h3 {
         font-size: 5vw;
     }
 
@@ -377,7 +376,12 @@ details div {
         color: #112244;
         font-weight: 700;
         font-size: 8vw;
-        margin-right: 0;
+        margin-right: 0%;
+    }
+
+    .faixa_esquerda h1, .faixa_esquerda h3, .faixa_esquerda p {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .infos p,
@@ -390,33 +394,39 @@ details div {
 
     .trajetoria {
         flex-direction: column;
-        margin-left: 5%;
-        margin-right: 0%;
+        width: 100%;
     }
 
     .faixa_esquerda {
-        width: 90%;
-        
+        width: 100%;
+
     }
 
     .accordeons {
-        width: 90%;
+        width: 100%;
         font-size: 5vw;
+
     }
 
     details {
         width: 90%;
+        border: none;
+        margin-left: 5%;
+        margin-right: 5%;
     }
+
 
     summary {
         padding: 8px;
         font-size: 5vw;
+        border-bottom: none;
     }
 
     details p {
-        padding: 8px;
+        padding: 5%;
         font-size: 5vw;
     }
+
 
     .valores {
         flex-direction: column;
@@ -450,15 +460,20 @@ details div {
         width: 90%;
     }
 
-    .card{
+    .card {
         padding: 7% 2%;
     }
 
-    .card_um, .card_dois, .card_tres, .card_quatro, .card_cinco, .card_seis {
+    .card_um,
+    .card_dois,
+    .card_tres,
+    .card_quatro,
+    .card_cinco,
+    .card_seis {
         border-radius: 8px;
         text-align: left;
         display: flex;
-;
+        ;
     }
 
     #card_icon {
@@ -473,7 +488,7 @@ details div {
         display: flex;
         margin-left: 4%;
         padding-bottom: 2%;
-        
+
     }
 
     #card_paragraph {
@@ -488,6 +503,6 @@ details div {
 
     }
 
-  
+
 
 }
