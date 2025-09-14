@@ -6,47 +6,54 @@
     font-family: "Arsenal", sans-serif;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+/* aqui */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
 .menu {
     height: 100px;
     background-color: #112244;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-}
-
-.logo {
-    height: 40px;
-    margin-left: 0;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex: 1;
-    margin-right: 15%;
-}
-
-li {
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-size: 1.2rem;
     position: relative;
+    z-index: 1000;
+    /* aqui */
 }
 
-li a:hover {
-    color: FF7B00;
-    border-bottom: 3px solid orange;
-    padding-bottom: 5px;
+.menu ul {
+    display: flex;
+    list-style: none;
+    z-index: 999;
+    /* aqui */
 }
+
+.menu li {
+    padding-right: 25%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.3vw;
+}
+
+li :hover {
+    color: #FF7B00;
+    border-bottom: 3px solid #FF7B00;
+    padding-bottom: 20px;
+}
+
 
 #atual {
     color: #FF7B00;
@@ -308,6 +315,48 @@ details div {
 
 
 @media (max-width: 425px) {
+
+
+    
+
+    .logo{
+        width: 50%;
+        margin-left: 5%;
+    }
+
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu {
+        position: relative;
+    }
+
+    .menu ul {
+        display: none;
+        flex-direction: column;
+        background-color: #112244;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu li {
+        padding: 20px 0;
+    }
+
+    .menu a {
+        font-size: 5vw;
+    }
+
+    #menu-toggle:checked+.hamburger+ul {
+        display: flex;
+    }
+
+
     .candidato {
         flex-direction: column;
     }
@@ -427,9 +476,6 @@ details div {
         padding: 5%;
         font-size: 5vw;
     }
-
-
-
 
 
     .valores {
