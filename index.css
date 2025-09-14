@@ -152,7 +152,6 @@ details {
     width: 100%;
     margin: 0.7%;
     border: 15px solid #FF7B00;
-    background-color: #ff7b0035;
     overflow: hidden;
 }
 
@@ -178,7 +177,7 @@ details p,
 details div {
     padding: 12px;
     background-color: #fffaf5;
-    color: #000000;
+    color: #112244;
 }
 
 .valores {
@@ -430,6 +429,9 @@ details div {
     }
 
 
+
+
+
     .valores {
         flex-direction: column;
         background-color: #112244;
@@ -475,7 +477,7 @@ details div {
         border-radius: 8px;
         text-align: left;
         display: flex;
-        
+
     }
 
     #card_icon {
@@ -522,9 +524,9 @@ details div {
         margin-left: 10%;
     }
 
-    .footer_copy{
+    .footer_copy {
         font-size: 3vw;
-       
+
     }
 
 

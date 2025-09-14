@@ -220,6 +220,20 @@
 
     </script>
 
+    <script>
+document.querySelectorAll('.accordeons details').forEach((details) => {
+  details.addEventListener('toggle', function () {
+    if (details.open) {
+      document.querySelectorAll('.accordeons details').forEach((other) => {
+        if (other !== details) {
+          other.open = false;
+        }
+      });
+    }
+  });
+});
+</script>
+
 </body>
 
 </html>
