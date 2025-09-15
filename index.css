@@ -403,7 +403,7 @@ details div {
         position: absolute;
         top: 10%;
         left: 5%;
-        font-size: 6.5vw;
+        font-size: 7vw;
         font-weight: 700;
         color: #ffffff;
     }
@@ -411,7 +411,7 @@ details div {
     .botoes {
         font-size: 3vw;
         margin-left: 15%;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
     }
 
     .botao {
