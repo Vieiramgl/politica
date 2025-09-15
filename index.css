@@ -396,6 +396,7 @@ details div {
 
     .fundo img {
         width: 100%;
+        margin-bottom: 5%;
     }
 
     .fundo p {
@@ -427,6 +428,7 @@ details div {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-bottom: 5%;
     }
 
     .candidato h3,
@@ -461,6 +463,7 @@ details div {
         font-weight: 500;
         color: #112244;
         line-height: 1.5;
+        margin-bottom: 5%;
     }
 
     .trajetoria {
