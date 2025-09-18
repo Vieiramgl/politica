@@ -10,7 +10,7 @@
     display: none;
 }
 
-/* aqui */
+
 .hamburger {
     display: none;
     font-size: 24px;
@@ -27,14 +27,19 @@
     align-items: center;
     position: relative;
     z-index: 1000;
-    /* aqui */
 }
+
+ .logo {
+        margin-left: 20%;
+
+    }
 
 .menu ul {
     display: flex;
     list-style: none;
     z-index: 999;
-    /* aqui */
+    margin-left: 5%;
+    
 }
 
 .menu li {
@@ -332,7 +337,7 @@ details div {
 
     .logo {
         width: 50%;
-        margin-left: 5%;
+        margin-left: 1%
     }
 
 
