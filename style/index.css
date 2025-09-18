@@ -29,16 +29,16 @@
     z-index: 1000;
 }
 
- .logo {
-        margin-left: 20%;
-    }
+.logo {
+    margin-left: 20%;
+}
 
 .menu ul {
     display: flex;
     list-style: none;
     z-index: 999;
     margin-left: 5%;
-    
+
 }
 
 .menu li {
@@ -350,24 +350,24 @@ details div {
     }
 
     .menu ul {
-    display: flex;
-    flex-direction: column;
-    background-color: #112244;
-    position: absolute;
-    top: 55px;
-    right: 0;
-    width: 100%;
-    padding-left: 5%; 
-    box-sizing: border-box;
-    display: none;
+        display: flex;
+        flex-direction: column;
+        background-color: #112244;
+        position: absolute;
+        top: 55px;
+        right: 0;
+        width: 100%;
+        padding-left: 5%;
+        box-sizing: border-box;
+        display: none;
     }
 
     .menu ul {
-    background-color: #1a2a4d;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-    border-top: 2px solid #FF7B00;
-    transition: background-color 0.3s, box-shadow 0.3s;
-}
+        background-color: #1a2a4d;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        border-top: 2px solid #FF7B00;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
 
     .menu li {
         padding: 20px 0;
