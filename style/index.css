@@ -31,7 +31,7 @@
 }
 
 .logo {
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .menu ul {
@@ -49,19 +49,19 @@
     text-decoration: none;
     color: #ffffff;
     font-weight: 400;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
 }
 
 li :hover {
     color: #FF7B00;
     border-bottom: 3px solid #FF7B00;
-    padding-bottom: 30px;
+    padding-bottom: 2.5vh;
 }
 
 #atual {
     color: #FF7B00;
     border-bottom: 3px solid #FF7B00;
-    padding-bottom: 25px;
+    padding-bottom: 2.5vh;
 }
 
 /* ===================== FUNDO ===================== */
@@ -76,7 +76,7 @@ li :hover {
 .fundo p {
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 15%;
     font-size: 3vw;
     font-weight: 700;
     color: #ffffff;
@@ -85,7 +85,7 @@ li :hover {
 .botoes {
     position: absolute;
     bottom: 10%;
-    left: 10%;
+    left: 15%;
     display: flex;
     gap: 20px;
     font-size: 1.2vw;
@@ -109,28 +109,33 @@ li :hover {
 /* ===================== CANDIDATO ===================== */
 .candidato {
     display: flex;
+    align-items: center;
+    margin-top: 5%;
 }
 
 .candidato img {
-    width: 25%;
-    margin-top: 2%;
-    margin-left: 0%;
+    width: 50%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 2%;
+    
 }
 
 .infos {
-    margin-right: 0%;
+    margin-right: 15%;
 }
 
 .infos h3,
 .faixa_esquerda h3 {
     color: #FF7B00;
+    font-size: 2vw;
 }
 
 .infos h1,
 .faixa_esquerda h1 {
     color: #112244;
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin-bottom: 2%;
 }
 
@@ -149,8 +154,6 @@ li :hover {
 
 .faixa_esquerda {
     width: 45%;
-    margin-top: 2%;
-    padding-left: 0%;
 }
 
 .accordeons {
@@ -387,7 +390,7 @@ details div {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 0%;
     }
 
     .infos {
@@ -402,7 +405,6 @@ details div {
 
     .fundo img {
         width: 100%;
-        margin-bottom: 5%;
     }
 
     .fundo p {
@@ -434,6 +436,7 @@ details div {
     .trajetoria h3,
     .valores h3 {
         font-size: 5vw;
+        margin-top: 5%;
     }
 
     .infos h1,
@@ -442,6 +445,7 @@ details div {
         font-weight: 700;
         font-size: 8vw;
         margin-right: 0%;
+        
     }
 
     .faixa_esquerda,
