@@ -49,20 +49,20 @@
     text-decoration: none;
     color: #ffffff;
     font-weight: 400;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
 }
 
 li :hover {
     color: #FF7B00;
     border-bottom: 3px solid #FF7B00;
-    padding-bottom: 30px;
+    padding-bottom: 2.5vh;
 }
 
 
 #atual {
     color: #FF7B00;
     border-bottom: 3px solid #FF7B00;
-    padding-bottom: 25px;
+    padding-bottom: 2.5vh;
 }
 
 .noticias {
