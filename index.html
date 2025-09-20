@@ -9,8 +9,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -203,10 +204,7 @@
     </section>
 
     <footer>
-        <div class="line">
-
-        </div>
-
+        <div class="line"></div>
         <div class="footer_social">
             <h3>Me acompanhe nas redes!</h3>
             <p>Receba atualizações e novidades em tempo real.</p>
@@ -224,18 +222,18 @@
     </script>
 
     <script>
-document.querySelectorAll('.accordeons details').forEach((details) => {
-  details.addEventListener('toggle', function () {
-    if (details.open) {
-      document.querySelectorAll('.accordeons details').forEach((other) => {
-        if (other !== details) {
-          other.open = false;
-        }
-      });
-    }
-  });
-});
-</script>
+        document.querySelectorAll('.accordeons details').forEach((details) => {
+            details.addEventListener('toggle', function () {
+                if (details.open) {
+                    document.querySelectorAll('.accordeons details').forEach((other) => {
+                        if (other !== details) {
+                            other.open = false;
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 
 </body>
 
