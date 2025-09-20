@@ -117,10 +117,10 @@ figure {
     width: 100%;
 }
 
-hr {
-    border: none;
-    border-top: 3px solid #112244;}
-    
+.line {
+    height: 5px;
+    background-color: #112244;
+}
 
 .footer_social {
     text-align: center;

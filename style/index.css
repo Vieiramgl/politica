@@ -1,3 +1,4 @@
+/* ===================== RESET & BASE ===================== */
 * {
     margin-bottom: 0px;
     margin-top: 0px;
@@ -6,10 +7,10 @@
     font-family: "Arsenal", sans-serif;
 }
 
+/* ===================== MENU ===================== */
 #menu-toggle {
     display: none;
 }
-
 
 .hamburger {
     display: none;
@@ -38,7 +39,6 @@
     list-style: none;
     z-index: 999;
     margin-left: 5%;
-
 }
 
 .menu li {
@@ -58,13 +58,13 @@ li :hover {
     padding-bottom: 30px;
 }
 
-
 #atual {
     color: #FF7B00;
     border-bottom: 3px solid #FF7B00;
     padding-bottom: 25px;
 }
 
+/* ===================== FUNDO ===================== */
 .fundo {
     position: relative;
 }
@@ -99,7 +99,6 @@ li :hover {
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s;
-
 }
 
 .botao:hover {
@@ -107,6 +106,7 @@ li :hover {
     color: #ffffff;
 }
 
+/* ===================== CANDIDATO ===================== */
 .candidato {
     display: flex;
 }
@@ -141,6 +141,7 @@ li :hover {
     line-height: 1.5;
 }
 
+/* ===================== TRAJETÓRIA ===================== */
 .trajetoria {
     display: flex;
     margin-left: 0%;
@@ -151,7 +152,6 @@ li :hover {
     margin-top: 2%;
     padding-left: 0%;
 }
-
 
 .accordeons {
     width: 100%;
@@ -191,6 +191,7 @@ details div {
     color: #112244;
 }
 
+/* ===================== VALORES ===================== */
 .valores {
     display: flex;
     flex-direction: column;
@@ -219,6 +220,7 @@ details div {
     line-height: 1.5;
 }
 
+/* ===================== CARDS ===================== */
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -259,12 +261,11 @@ details div {
 }
 
 .line {
-    height: 10px;
+    height: 5px;
     background-color: #FF7B00;
 }
 
-
-/* CSS para o footer */
+/* ===================== FOOTER ===================== */
 .footer_social {
     text-align: center;
     margin-bottom: 2%;
@@ -310,14 +311,14 @@ details div {
     margin-left: 10%;
 }
 
-.footer_links>div {
+.footer_links > div {
     flex: 1;
 }
 
-
+/* ===================== RESPONSIVO ===================== */
 @media (max-width: 768px) {}
 
-
+/* ----- MOBILE ----- */
 @media (max-width: 425px) {
 
     li :hover {
@@ -325,20 +326,16 @@ details div {
         border-bottom: none;
     }
 
-
     #atual {
         color: white;
         border-bottom: none;
         padding-bottom: 25px;
     }
 
-
-
     .logo {
         width: 50%;
         margin-left: 1%
     }
-
 
     .hamburger {
         display: block;
@@ -381,17 +378,22 @@ details div {
         display: flex;
     }
 
-
     .candidato {
         flex-direction: column;
     }
 
     .candidato img {
         order: 2;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
     }
 
     .infos {
         order: 1;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
     a {
@@ -426,14 +428,6 @@ details div {
         cursor: pointer;
         font-weight: bold;
         transition: 0.3s;
-
-    }
-
-    .candidato img {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 5%;
     }
 
     .candidato h3,
@@ -442,17 +436,18 @@ details div {
         font-size: 5vw;
     }
 
-    .infos {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
     .infos h1,
     .faixa_esquerda h1 {
         color: #112244;
         font-weight: 700;
         font-size: 8vw;
         margin-right: 0%;
+    }
+
+    .faixa_esquerda,
+    .trajetoria {
+        width: 100%;
+        flex-direction: column;
     }
 
     .faixa_esquerda h1,
@@ -471,20 +466,9 @@ details div {
         margin-bottom: 5%;
     }
 
-    .trajetoria {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .faixa_esquerda {
-        width: 100%;
-
-    }
-
     .accordeons {
         width: 100%;
         font-size: 5vw;
-
     }
 
     details {
@@ -493,7 +477,6 @@ details div {
         margin-left: 5%;
         margin-right: 5%;
     }
-
 
     summary {
         padding: 8px;
@@ -505,7 +488,6 @@ details div {
         padding: 5%;
         font-size: 5vw;
     }
-
 
     .valores {
         flex-direction: column;
@@ -552,7 +534,6 @@ details div {
         border-radius: 8px;
         text-align: left;
         display: flex;
-
     }
 
     #card_icon {
@@ -567,7 +548,6 @@ details div {
         display: flex;
         margin-left: 4%;
         padding-bottom: 2%;
-
     }
 
     #card_paragraph {
@@ -579,16 +559,11 @@ details div {
 
     .line {
         height: 5px;
-
     }
 
     .footer_redes_sociais img {
         width: 10%;
     }
-
-
-
-
 
     .footer_links {
         width: 80%;
@@ -601,8 +576,5 @@ details div {
 
     .footer_copy {
         font-size: 3vw;
-
     }
-
-
 }
