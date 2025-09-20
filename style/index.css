@@ -111,19 +111,15 @@ li :hover {
     display: flex;
     align-items: center;
     margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .candidato img {
-    width: 50%;
-    margin-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 2%;
-    
+    width: 200%;
 }
 
-.infos {
-    margin-right: 15%;
-}
+
 
 .infos h3,
 .faixa_esquerda h3 {
@@ -383,20 +379,19 @@ details div {
 
     .candidato {
         flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
     }
 
     .candidato img {
         order: 2;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 0%;
+        width: 100%;
     }
 
     .infos {
         order: 1;
-        margin-right: 5%;
-        margin-left: 5%;
+        width: 100%;
     }
 
     a {
@@ -444,22 +439,21 @@ details div {
         color: #112244;
         font-weight: 700;
         font-size: 8vw;
-        margin-right: 0%;
         
     }
 
-    .faixa_esquerda,
+
     .trajetoria {
-        width: 100%;
+        width: 90%;
         flex-direction: column;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
-    .faixa_esquerda h1,
-    .faixa_esquerda h3,
-    .faixa_esquerda p {
-        margin-left: 5%;
-        margin-right: 5%;
+    .faixa_esquerda{
+        width: 100%;
     }
+
 
     .infos p,
     .faixa_esquerda p {
@@ -470,16 +464,10 @@ details div {
         margin-bottom: 5%;
     }
 
-    .accordeons {
-        width: 100%;
-        font-size: 5vw;
-    }
-
     details {
-        width: 90%;
-        border: none;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 100%;
+        border: none; 
+        font-size: 5vw;
     }
 
     summary {
