@@ -348,7 +348,7 @@ details div {
     }
 
     #atual {
-        color: white;
+        color: #FF7B00 ;
         border-bottom: none;
         padding-bottom: 25px;
     }
@@ -373,7 +373,7 @@ details div {
         flex-direction: column;
         background-color: #112244;
         position: absolute;
-        top: 55px;
+        top: 70px;
         right: 0;
         width: 100%;
         padding-left: 5%;
@@ -580,7 +580,7 @@ details div {
     }
 
     .line {
-        height: 5px;
+        height: 3px;
     }
 
     .footer_redes_sociais img {

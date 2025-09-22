@@ -30,7 +30,7 @@
 }
 
 .logo {
-    margin-left: 15%;   
+    margin-left: 15%;
 }
 
 .menu ul {
@@ -52,50 +52,40 @@
     font-size: 1.5vw;
 }
 
-li :hover {
-    color: #FF7B00;
-    border-bottom: 3px solid #FF7B00;
-    padding-bottom: 2.5vh;
-}
-
-
-#atual {
-    color: #FF7B00;
-    border-bottom: 3px solid #FF7B00;
-    padding-bottom: 2.5vh;
-}
 
 .noticias {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  text-align: center;
-  margin-right: 15%;
-  margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 a {
-  color: inherit;      
-  text-decoration: none;
-  text-align: left;
+    color: inherit;
+    text-decoration: none;
+    text-align: left;
 }
 
-figcaption{
+figcaption {
     text-align: right;
     font-size: 1vw;
 }
 
 .noticias h3 {
-   font-size: 2vw;
+    font-size: 2vw;
 }
 
 .noticias p {
-   font-size: 1.5vw;
+    font-size: 1.5vw;
 }
 
-.noticias .linha1, .noticias .linha2, .noticias .linha3 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5%;
+.noticias .linha1,
+.noticias .linha2,
+.noticias .linha3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
 }
 
 figure {
@@ -107,47 +97,53 @@ figure {
     border-radius: 10px;
 }
 
-.linha3, .linha2, .linha1 {
+.linha3,
+.linha2,
+.linha1 {
     width: 100%;
     gap: auto;
 
 }
 
-.linha3 figure, .linha2 figure, .linha1 figure {
+.linha3 figure,
+.linha2 figure,
+.linha1 figure {
     width: 100%;
 }
 
 .line {
-    height: 5px;
-    background-color: #112244;
+        height: 5px;
+        background-color: #112244
+    }
+
+footer{
+    background-color: #FF7B00;
 }
 
 .footer_social {
     text-align: center;
-    background-color: #FF7B00;
+    margin-bottom: 2%;
 }
 
 .footer_redes_sociais {
     display: flex;
     justify-content: center;
-    gap: 4%;
+    gap: 3%;
 }
 
 .footer_redes_sociais img {
-    width: 3%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    width: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .footer_social h3 {
-    color:#112244;
+    color: #112244;
     padding-top: 2%;
-    font-size: 1.5vw;
 }
 
 .footer_social p {
     color: #112244;
-    padding-bottom: 1%;
 }
 
 .footer_links h3 {
@@ -158,7 +154,6 @@ figure {
 .footer_links p,
 .footer_links li {
     color: #112244;
-   
 }
 
 .footer_links {
@@ -174,5 +169,141 @@ figure {
     flex: 1;
 }
 
+/* ----- MOBILE ----- */
+@media (max-width: 425px) {
 
 
+   #atual {
+        color: #FF7B00 ;
+        border-bottom: none;
+        padding-bottom: 25px;
+    }
+
+    .logo {
+        width: 50%;
+        margin-left: 5%
+    }
+
+    .hamburger {
+        display: block;
+        margin-right: 5%;
+    }
+
+    .menu {
+        position: relative;
+        height: 70px;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        background-color: #112244;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        padding-left: 5%;
+        box-sizing: border-box;
+        display: none;
+    }
+
+    .menu ul {
+        background-color: #1a2a4d;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        border-top: 2px solid #FF7B00;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+    .menu li {
+        padding: 20px 0;
+    }
+
+    .menu a {
+        font-size: 5vw;
+    }
+
+    #menu-toggle:checked+.hamburger+ul {
+        display: flex;
+    }
+
+
+    .noticias {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        text-align: center;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        text-align: left;
+    }
+
+    figcaption {
+        text-align: right;
+        font-size: 1vw;
+    }
+
+    .noticias h3 {
+        font-size: 2vw;
+    }
+
+    .noticias p {
+        font-size: 1.5vw;
+    }
+
+    .noticias .linha1,
+    .noticias .linha2,
+    .noticias .linha3 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+    }
+
+    figure {
+        padding: 1%;
+    }
+
+    .noticias img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .linha3,
+    .linha2,
+    .linha1 {
+        width: 100%;
+        gap: auto;
+
+    }
+
+    .linha3 figure,
+    .linha2 figure,
+    .linha1 figure {
+        width: 100%;
+    }
+
+   .line {
+        height: 3px;
+    }
+
+    .footer_redes_sociais img {
+        width: 10%;
+    }
+
+    .footer_links {
+        width: 80%;
+        margin-top: 3%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin-left: 10%;
+    }
+
+    .footer_copy {
+        font-size: 3vw;
+    }
+
+}
