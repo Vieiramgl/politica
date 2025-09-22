@@ -52,6 +52,12 @@
     font-size: 1.5vw;
 }
 
+#atual {
+    color: #FF7B00;
+    border-bottom: 3px solid #FF7B00;
+    padding-bottom: 2.5vh;
+}
+
 
 .noticias {
     margin-top: 5%;
@@ -88,9 +94,6 @@ figcaption {
     margin-bottom: 5%;
 }
 
-figure {
-    padding: 1%;
-}
 
 .noticias img {
     width: 100%;
@@ -243,28 +246,25 @@ footer{
 
     figcaption {
         text-align: right;
-        font-size: 1vw;
+        font-size: 3vw;
     }
 
     .noticias h3 {
-        font-size: 2vw;
+        font-size: 6vw;
     }
 
     .noticias p {
-        font-size: 1.5vw;
+        font-size: 5vw;
+        margin-bottom: 5%;
     }
 
     .noticias .linha1,
     .noticias .linha2,
     .noticias .linha3 {
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
         margin-bottom: 5%;
     }
-
-    figure {
-        padding: 1%;
-    }
+    
 
     .noticias img {
         width: 100%;
