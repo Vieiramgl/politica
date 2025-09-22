@@ -122,7 +122,6 @@ footer{
 
 .footer_social {
     text-align: center;
-    margin-bottom: 2%;
 }
 
 .footer_redes_sociais {
@@ -144,6 +143,7 @@ footer{
 
 .footer_social p {
     color: #112244;
+    padding-bottom: 2%;
 }
 
 .footer_links h3 {
@@ -231,8 +231,8 @@ footer{
         margin-top: 5%;
         margin-bottom: 5%;
         text-align: center;
-        margin-right: 15%;
-        margin-left: 15%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
     a {
@@ -286,7 +286,7 @@ footer{
     }
 
    .line {
-        height: 3px;
+        height: 5px;
     }
 
     .footer_redes_sociais img {
