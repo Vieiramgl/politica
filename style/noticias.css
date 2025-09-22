@@ -92,6 +92,7 @@ figcaption {
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
+    gap: 2%;
 }
 
 
@@ -263,7 +264,10 @@ footer{
     .noticias .linha3 {
         flex-direction: column;
         margin-bottom: 5%;
+        gap: 0;
     }
+    
+   
     
 
     .noticias img {
