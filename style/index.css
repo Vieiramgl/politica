@@ -49,7 +49,7 @@
     text-decoration: none;
     color: #ffffff;
     font-weight: 400;
-    font-size: clamp(1vw, 1vw, 1.5vw);
+    font-size: 1.5vw;
 }
 
 li :hover {
@@ -146,10 +146,10 @@ li :hover {
 /* ===================== TRAJETÓRIA ===================== */
 .trajetoria {
     display: flex;
-    margin-left: 0%;
     margin-right: 15%;
     margin-left: 15%;
     margin-top: 5%;
+    align-items: center;    
 }
 
 .faixa_esquerda {
@@ -161,13 +161,13 @@ li :hover {
     width: 50%;
     font-size: 1.5vw;
     padding-top: 2%;
+    
 }
 
 details {
     width: 100%;
-    margin: 0.7%;
-    border: 15px solid #FF7B00;
     overflow: hidden;
+    padding-bottom: 1%;
 }
 
 summary {
@@ -175,8 +175,7 @@ summary {
     padding: 12px;
     background-color: #FF7B00;
     color: #112244;
-    font-weight: bold;
-    border-bottom: 1px solid #FF7B00;
+    font-weight: bold;      
 }
 
 summary:hover {
@@ -209,6 +208,7 @@ details div {
 .valores h3 {
     color: #FF7B00;
     padding-bottom: 1%;
+    font-size: 2vw;
 }
 
 .valores h1 {
@@ -219,17 +219,17 @@ details div {
 
 .valores p {
     color: #ffffff;
-    width: 80%;
-    font-size: 1.5vw;
+    width: 70%;
+    font-size: 1.5vw;   
     line-height: 1.5;
+    margin-bottom: 5%;
 }
 
 /* ===================== CARDS ===================== */
 .cards {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    margin: 3% auto;
+    width: 70%;
     gap: 3%;
 }
 
@@ -241,7 +241,17 @@ details div {
     padding: 1.5%;
     box-sizing: border-box;
     margin-bottom: 3%;
+    width: 100%;
 }
+
+    .card_um,
+    .card_dois,
+    .card_tres,
+    .card_quatro,
+    .card_cinco,
+    .card_seis {
+        display: flex;
+    }
 
 .cards :hover {
     background-color: #ffcc00;
@@ -250,18 +260,25 @@ details div {
 }
 
 #card_icon {
-    width: 10%;
+    width: 12%;
     padding-bottom: 2%;
+    margin-left: 4%;
 }
 
 #card_title {
-    color: #112244;
+    color: #112244; 
     padding-bottom: 2%;
+    font-size: 1,5vw;
+    margin-left: 3%;
+    
 }
 
 #card_paragraph {
     color: #112244;
-    font-size: 1vw;
+    font-size: 1.5vw;
+    text-align: justify;
+    margin-left: 5%;
+    width: 90%;
 }
 
 .line {
@@ -315,7 +332,7 @@ details div {
     margin-left: 10%;
 }
 
-.footer_links > div {
+.footer_links>div {
     flex: 1;
 }
 
@@ -416,7 +433,7 @@ details div {
         font-size: 7vw;
         font-weight: 700;
         color: #ffffff;
-        
+
     }
 
     .botoes {
@@ -447,7 +464,7 @@ details div {
         color: #112244;
         font-weight: 700;
         font-size: 8vw;
-        
+
     }
 
 
@@ -458,7 +475,7 @@ details div {
         margin-left: 5%;
     }
 
-    .faixa_esquerda{
+    .faixa_esquerda {
         width: 100%;
         margin-right: 0%;
     }
@@ -474,14 +491,14 @@ details div {
     }
 
     .accordeons {
-    width: 100%;
-    font-size: 1.5vw;
-    padding-top: 2%;
-}
+        width: 100%;
+        font-size: 1.5vw;
+        padding-top: 2%;
+    }
 
     details {
         width: 100%;
-        border: none; 
+        border: none;
         font-size: 5vw;
     }
 
