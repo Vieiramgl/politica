@@ -149,7 +149,7 @@ li :hover {
     margin-right: 15%;
     margin-left: 15%;
     margin-top: 5%;
-    align-items: center;    
+    align-items: center;
 }
 
 .faixa_esquerda {
@@ -161,7 +161,7 @@ li :hover {
     width: 50%;
     font-size: 1.5vw;
     padding-top: 2%;
-    
+
 }
 
 details {
@@ -175,7 +175,7 @@ summary {
     padding: 12px;
     background-color: #FF7B00;
     color: #112244;
-    font-weight: bold;      
+    font-weight: bold;
 }
 
 summary:hover {
@@ -220,7 +220,7 @@ details div {
 .valores p {
     color: #ffffff;
     width: 70%;
-    font-size: 1.5vw;   
+    font-size: 1.5vw;
     line-height: 1.5;
     margin-bottom: 5%;
 }
@@ -244,14 +244,14 @@ details div {
     width: 100%;
 }
 
-    .card_um,
-    .card_dois,
-    .card_tres,
-    .card_quatro,
-    .card_cinco,
-    .card_seis {
-        display: flex;
-    }
+.card_um,
+.card_dois,
+.card_tres,
+.card_quatro,
+.card_cinco,
+.card_seis {
+    display: flex;
+}
 
 .cards :hover {
     background-color: #ffcc00;
@@ -266,11 +266,11 @@ details div {
 }
 
 #card_title {
-    color: #112244; 
+    color: #112244;
     padding-bottom: 2%;
-    font-size: 1,5vw;
+    font-size: 1, 5vw;
     margin-left: 3%;
-    
+
 }
 
 #card_paragraph {
@@ -455,7 +455,7 @@ details div {
     .candidato h3,
     .trajetoria h3,
     .valores h3 {
-        font-size: 5vw;
+        font-size: 6vw;
         margin-top: 5%;
     }
 
@@ -555,23 +555,20 @@ details div {
     .card_quatro,
     .card_cinco,
     .card_seis {
-        border-radius: 8px;
-        text-align: left;
         display: flex;
     }
 
     #card_icon {
-        width: 8%;
-        padding-bottom: 2%;
+        width: 15%;
         margin-left: 4%;
+        
     }
 
     #card_title {
         color: #112244;
-        padding-bottom: 2%;
-        display: flex;
         margin-left: 4%;
-        padding-bottom: 2%;
+        font-size: 6vw;
+        padding-bottom: 5%;
     }
 
     #card_paragraph {
@@ -579,6 +576,7 @@ details div {
         font-size: 5vw;
         margin-left: 5%;
         text-align: justify;
+        font-size: 5vw;
     }
 
     .line {
