@@ -52,6 +52,12 @@
     font-size: 1.5vw;
 }
 
+li :hover {
+    color: #FF7B00;
+    border-bottom: 3px solid #FF7B00;
+    padding-bottom: 2.5vh;
+}
+
 #atual {
     color: #FF7B00;
     border-bottom: 3px solid #FF7B00;
@@ -116,11 +122,11 @@ figcaption {
 }
 
 .line {
-        height: 5px;
-        background-color: #112244
-    }
+    height: 5px;
+    background-color: #112244
+}
 
-footer{
+footer {
     background-color: #FF7B00;
 }
 
@@ -177,8 +183,8 @@ footer{
 @media (max-width: 425px) {
 
 
-   #atual {
-        color: #FF7B00 ;
+    #atual {
+        color: #FF7B00;
         border-bottom: none;
         padding-bottom: 25px;
     }
@@ -266,9 +272,9 @@ footer{
         margin-bottom: 5%;
         gap: 0;
     }
-    
-   
-    
+
+
+
 
     .noticias img {
         width: 100%;
@@ -289,8 +295,8 @@ footer{
         width: 100%;
     }
 
-   .line {
-        height: 5px;
+    .line {
+        height: 3px;
     }
 
     .footer_redes_sociais img {
