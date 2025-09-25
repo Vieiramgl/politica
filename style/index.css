@@ -113,11 +113,16 @@ li :hover {
     margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
+    
 }
 
 .candidato img {
-    width: 100%;
+    width: 50%;
     margin-right: 5%;
+}
+
+.infos {
+    width: 50%;
 }
 
 
