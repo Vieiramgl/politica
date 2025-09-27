@@ -63,3 +63,202 @@ li :hover {
     border-bottom: 3px solid #FF7B00;
     padding-bottom: 2.5vh;
 }
+
+.candidato h1,
+.trajetoria h1,
+.propostas h1,
+.propostas h1,
+.feitos h1,
+.valores h1,
+.contato h1 {
+    font-size: 2.5vw;
+    color: #FF7B00;
+
+}
+
+.candidato h3,
+.trajetoria h3,
+.propostas h3,
+.propostas h3,
+.feitos h3,
+.valores h3,
+.contato h3 {
+    font-size: 2vw;
+    color: #228B22;
+}
+
+.candidato p,
+.trajetoria p,
+.propostas p,
+.propostas p,
+.feitos p,
+.valores p,
+.contato p {
+    font-size: 1.5vw;
+}
+
+.trajetoria,
+.feitos,
+.contato 
+{
+    background-color: #112244;
+}
+
+.trajetoria p,
+.feitos p,
+.contato p  {
+    background-color: #112244;
+    color: #ffffff;
+}
+
+.trajetoria, .propostas, .feitos, .valores, .valores, .contato{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.candidato {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.foto {
+    width: 50%;
+    margin-right: 5%;
+}
+
+.candidato img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.candidato .infos {
+    width: 50%;
+}
+
+
+.ancoras {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ancoras a {
+    text-decoration: none;
+    background-color: #112244;
+    color: #ffffff;
+    font-size: 1.2vw;
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.ancoras a:hover {
+    background-color: #FF7B00;
+    color: #112244;
+    transition: 0.5s;
+}
+
+.dados-gerais li {
+    font-size: 1.5vw;
+}
+
+li::marker {
+    color: #228B22;
+}
+
+.propostas h1, .feitos h1, .contato h1{
+    margin-bottom: 3%;
+}
+
+.propostas p, .feitos p, .contato p{
+    margin-bottom: 2%;
+}
+
+.candidatoh1, .trajetoria h1, .valores h1{
+    margin-bottom: 1%;
+}
+
+.valores h3{
+    margin-top: 3%;
+}
+
+  iframe {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 3px solid white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px #ffffff;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== FOOTER ===================== */
+.line {
+    height: 5px;
+    background-color: #FF7B00
+}
+
+.footer_social {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.footer_redes_sociais {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.footer_redes_sociais img {
+    width: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer_social h3 {
+    color: #112244;
+    padding-top: 2%;
+}
+
+.footer_social p {
+    color: #112244;
+}
+
+.footer_links h3 {
+    color: #112244;
+    font-size: 1.4vw;
+}
+
+.footer_links p,
+.footer_links li {
+    color: #112244;
+}
+
+.footer_links {
+    width: 80%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 10%;
+}
+
+.footer_links>div {
+    flex: 1;
+}
