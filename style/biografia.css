@@ -52,11 +52,11 @@
     font-size: 1.5vw;
 }
 
-.menu li:hover {
+.menu li :hover {
     color: #FF7B00;
     border-bottom: 3px solid #FF7B00;
     padding-bottom: 2.5vh;
-}
+} 
 
 #atual {
     color: #FF7B00;
