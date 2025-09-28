@@ -7,6 +7,10 @@
     font-family: "Arsenal", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ===================== MENU ===================== */
 #menu-toggle {
     display: none;
@@ -208,11 +212,19 @@ iframe {
     width: 100%;
 }
 
+iframe {
+  transition: transform 0.4s ease-in-out; 
+}
+
+iframe:hover {
+  transform: scale(1.03);
+}
+
 
 /* ===================== FOOTER ===================== */
 .line {
     height: 5px;
-    background-color: #FF7B00
+    background-color: #FF7B00;
 }
 
 .footer_social {
@@ -228,7 +240,7 @@ iframe {
 
 .footer_redes_sociais img {
     width: 2%;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 2%;
 }
 
@@ -484,6 +496,8 @@ iframe {
 
     .footer_redes_sociais img {
         width: 10%;
+        margin-top: 2%;
+        margin-bottom: 5%;
     }
 
     .footer_links {

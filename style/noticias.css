@@ -121,17 +121,23 @@ figcaption {
     width: 100%;
 }
 
-.line {
-    height: 5px;
-    background-color: #112244
+figure {
+  transition: transform 0.4s ease-in-out;
 }
 
-footer {
+figure:hover {
+  transform: scale(1.03);
+}
+
+/* ===================== FOOTER ===================== */
+.line {
+    height: 5px;
     background-color: #FF7B00;
 }
 
 .footer_social {
     text-align: center;
+    margin-bottom: 2%;
 }
 
 .footer_redes_sociais {
@@ -142,7 +148,7 @@ footer {
 
 .footer_redes_sociais img {
     width: 2%;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 2%;
 }
 
@@ -153,7 +159,6 @@ footer {
 
 .footer_social p {
     color: #112244;
-    padding-bottom: 2%;
 }
 
 .footer_links h3 {
@@ -178,7 +183,6 @@ footer {
 .footer_links>div {
     flex: 1;
 }
-
 /* ----- MOBILE ----- */
 @media (max-width: 425px) {
 
@@ -301,6 +305,8 @@ footer {
 
     .footer_redes_sociais img {
         width: 10%;
+        margin-top: 2%;
+        margin-bottom: 5%;
     }
 
     .footer_links {
