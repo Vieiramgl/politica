@@ -7,6 +7,27 @@
     font-family: "Arsenal", sans-serif;
 }
 
+.hr1 {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 1px;
+    border-radius: 1px;
+}
+
+.hr2 {
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 1px;
+    border-radius: 10px;
+}
+
+.hr3 {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 1px;
+    border-radius: 10px;
+}
+
 /* ===================== MENU ===================== */
 #menu-toggle {
     display: none;
@@ -93,7 +114,7 @@ figcaption {
 .linha {
     display: flex;
     justify-content: center;
-    gap: 2%;
+    gap: 3%;
 }
 
 
@@ -112,7 +133,8 @@ figure {
 }
 
 figure:hover {
-  transform: scale(1.03)
+    transform: scale(1.03);
+
 }
 
 .sobrepor {
@@ -121,8 +143,20 @@ figure:hover {
     bottom: 5%;
     margin: 0 2%;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-    
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+figure a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
 }
 
 /* ===================== FOOTER ===================== */
@@ -270,6 +304,7 @@ figure:hover {
     .midias img {
         width: 100%;
         border-radius: 10px;
+        margin-bottom: 2%;
     }
 
     .figure {
