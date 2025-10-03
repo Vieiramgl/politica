@@ -7,8 +7,13 @@
     font-family: "Arsenal", sans-serif;
 }
 
+.foto img.run {
+    transform: translateX(100px) rotate(-5deg);
+    /* corre pra frente com leve inclinação */
+}
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* ===================== MENU ===================== */
@@ -60,7 +65,7 @@ html {
     color: #FF7B00;
     border-bottom: 3px solid #FF7B00;
     padding-bottom: 2.5vh;
-} 
+}
 
 #atual {
     color: #FF7B00;
@@ -137,12 +142,13 @@ html {
 .foto {
     width: 50%;
     margin-right: 5%;
+    overflow: hidden;
 }
 
 .candidato img {
     width: 100%;
     height: 100%;
-    align-items: center;
+    position: relative;
 }
 
 .candidato .infos {
@@ -213,11 +219,11 @@ iframe {
 }
 
 iframe {
-  transition: transform 0.4s ease-in-out; 
+    transition: transform 0.4s ease-in-out;
 }
 
 iframe:hover {
-  transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 
@@ -279,7 +285,7 @@ iframe:hover {
 
 @media (max-width: 425px) {
 
-/* ========================================== */
+    /* ========================================== */
 
     li :hover {
         color: white;
@@ -339,7 +345,7 @@ iframe:hover {
         display: flex;
     }
 
-/* ========================================== */
+    /* ========================================== */
 
     .candidato h1,
     .trajetoria h1,
@@ -348,7 +354,8 @@ iframe:hover {
     .feitos h1,
     .valores h1,
     .contato h1 {
-        font-size: 8vw;;
+        font-size: 8vw;
+        ;
         color: #FF7B00;
 
     }
@@ -371,7 +378,8 @@ iframe:hover {
     .feitos p,
     .valores p,
     .contato p {
-        font-size: 5vw;;
+        font-size: 5vw;
+        ;
     }
 
     .trajetoria,
@@ -423,7 +431,7 @@ iframe:hover {
         width: 100%;
     }
 
-    .infos{
+    .infos {
         order: 1;
     }
 
