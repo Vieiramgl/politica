@@ -218,6 +218,11 @@ figure a::after {
 @media (max-width: 425px) {
 
 
+    li :hover {
+        color: white;
+        border-bottom: none;
+    }
+
     #atual {
         color: #FF7B00;
         border-bottom: none;
