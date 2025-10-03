@@ -208,11 +208,21 @@
             <h3>Me acompanhe nas redes!</h3>
             <p>Receba atualizações e novidades em tempo real.</p>
             <div class="footer_redes_sociais">
-                <img src="assets/face.png" alt="">
-                <img src="assets/insta.png" alt="">
-                <img src="assets/twitter.png" alt="">
-                <img src="assets/drive.png" alt="">
-                <img src="assets/youtube.png" alt="">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                    <img src="assets/face.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                    <img src="assets/insta.png" alt="Instagram">
+                </a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener">
+                    <img src="assets/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://drive.google.com/" target="_blank" rel="noopener">
+                    <img src="assets/drive.png" alt="Google Drive">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+                    <img src="assets/youtube.png" alt="YouTube">
+                </a>
             </div>
             <p class="footer_copy">© Copyright 2025 Nome do Candidato. Todos os direitos reservados. </p>
         </div>
@@ -221,22 +231,22 @@
 
 
 
-<script>
-  window.addEventListener("scroll", function() {
-  const img = document.querySelector(".foto img");
-  const rect = img.getBoundingClientRect();
+    <script>
+        window.addEventListener("scroll", function () {
+            const img = document.querySelector(".foto img");
+            const rect = img.getBoundingClientRect();
 
-  const windowHeight = window.innerHeight;
+            const windowHeight = window.innerHeight;
 
-  let progress = 1 - (rect.bottom / (windowHeight + rect.height));
-  progress = Math.min(Math.max(progress, 0), 1);
+            let progress = 1 - (rect.bottom / (windowHeight + rect.height));
+            progress = Math.min(Math.max(progress, 0), 1);
 
-  const moveX = -120 + (progress * 240);
+            const moveX = -120 + (progress * 240);
 
-  img.style.transform = `translateX(${moveX}%)`;
-});
+            img.style.transform = `translateX(${moveX}%)`;
+        });
 
-</script>
+    </script>
 
 
 

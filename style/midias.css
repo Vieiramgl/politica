@@ -177,9 +177,10 @@ figure a::after {
 }
 
 .footer_redes_sociais img {
-    width: 2%;
-    margin-top: 1%;
-    margin-bottom: 2%;
+    width: 50%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
 }
 
 .footer_social h3 {
@@ -213,7 +214,6 @@ figure a::after {
 .footer_links>div {
     flex: 1;
 }
-
 /* ----- MOBILE ----- */
 @media (max-width: 425px) {
 
@@ -311,27 +311,18 @@ figure a::after {
         width: 100%;
     }
 
-    .line {
+   .line {
         height: 3px;
     }
 
     .footer_redes_sociais img {
-        width: 10%;
-        margin-top: 2%;
-        margin-bottom: 5%;
-    }
-
-    .footer_links {
-        width: 80%;
-        margin-top: 3%;
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
-        margin-left: 10%;
+        width: 50%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 25%;
     }
 
     .footer_copy {
         font-size: 3vw;
     }
-
 }
