@@ -27,7 +27,7 @@
     align-items: center;
     position: relative;
     z-index: 1000;
-}
+} 
 
 .logo {
     margin-left: 15%;
@@ -273,8 +273,12 @@ figure:hover {
     .noticias .linha2,
     .noticias .linha3 {
         flex-direction: column;
-        margin-bottom: 5%;
+        margin-bottom: 0%;
         gap: 0;
+    }
+
+    figure{
+        margin-bottom: 5%;
     }
 
 
