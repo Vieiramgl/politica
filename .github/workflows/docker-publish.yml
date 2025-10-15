@@ -21,7 +21,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Docker image
-        working-directory: ./politica   # 👈 muda o diretório para onde está o Dockerfile
         run: |
           docker build -t ghcr.io/vieiramgl/politica:1.0.0 .
 
