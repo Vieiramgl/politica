@@ -21,8 +21,9 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Docker image
+        working-directory: ${{ github.workspace }}
         run: |
-          docker build -t ghcr.io/vieiramgl/politica:1.0.0 .
+          docker build -t ghcr.io/vieiramgl/politica:1.0.0 -f Dockerfile .
 
       - name: Push Docker image
         run: |
