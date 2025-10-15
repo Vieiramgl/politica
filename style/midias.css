@@ -275,6 +275,7 @@ figure a::after {
     #menu-toggle:checked+.hamburger+ul {
         display: flex;
     }
+    
 
     /* ========================================== */
 
