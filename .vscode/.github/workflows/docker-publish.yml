@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-         docker build -t ghcr.io/vieiramgl/politica:1.0.0 .
+          docker build -t ghcr.io/vieiramgl/politica:1.0.0 .
 
       - name: Push Docker image
         run: |
