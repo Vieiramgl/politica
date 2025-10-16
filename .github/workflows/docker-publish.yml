@@ -25,3 +25,5 @@ jobs:
 
       - name: Push Docker image
         run: docker push ghcr.io/vieiramgl/politica:1.0.0
+
+
