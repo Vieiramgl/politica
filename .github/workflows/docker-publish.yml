@@ -24,6 +24,8 @@ jobs:
         run: docker build -t ghcr.io/vieiramgl/politica:1.0.0 .
 
       - name: Push Docker image
-        run: docker push ghcr.io/vieiramgl/politica:1.0.0
+        run: docker pull ghcr.io/vieiramgl/politica:1.0.0
+        docker run -p 3000:3000 ghcr.io/vieiramgl/politica:1.0.0
+
 
 
